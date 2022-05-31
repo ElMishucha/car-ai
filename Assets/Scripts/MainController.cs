@@ -44,7 +44,7 @@ public class MainController : MonoBehaviour
         {
             // All snakes are dead!!!
 
-            var winner = _heads.OrderBy(x => x.rating).First();
+            var winner = _heads.OrderByDescending(x => x.rating).First();
             var ai = winner.AI;
             
             _heads.Clear();

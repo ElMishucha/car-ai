@@ -238,9 +238,8 @@ MonoBehaviour:
   arena: {fileID: 3218571651069530201, guid: d75200c194450a546bb50ec0de4a5a8a, type: 3}
   best: {fileID: 0}
   bestRating: 0
-  width: 15
+  width: 5
   height: 5
-  _headsCount: 0
 --- !u!4 &1173969850
 Transform:
   m_ObjectHideFlags: 0

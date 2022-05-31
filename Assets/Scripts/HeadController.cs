@@ -90,6 +90,7 @@ public class HeadController : MonoBehaviour
 
     public void OnDestroy()
     {
+        Debug.Log("Snake: " + rating);
         Died.Invoke(this);
         Died.RemoveAllListeners();
     }
